@@ -22,10 +22,29 @@
         body{
             background-color: black;
         }
-        #introdução,#criaturas,#classificação {
+        #introdução,#SCPs,#classificação {
             display: flex;
             flex-direction: column;
             align-items: center;
+        }
+        .safe {
+            font-family: 'Courier New', Courier, monospace; 
+            color: rgb(119, 177, 32); 
+            text-shadow: 2px 2px 5px  rgb(119, 177, 32);
+        }
+        .euclid {
+            font-family: 'Courier New', Courier, monospace;
+            color: orangered;
+            text-shadow: 2px 2px 5px orangered;
+        }
+        .keter {
+            font-family: 'Courier New', Courier, monospace;
+            color: red;
+            text-shadow: 2px 2px 5px rgb(148, 26, 26)
+        }
+        .p1 {
+            color: beige; 
+            font-family: 'Courier New', Courier, monospace;
         }
     </style>
 </head>
@@ -47,25 +66,31 @@
                     A ignorância é proteção.
                     A verdade... um risco necessário.</h3>
                     </section>
+                    <p style="color: whitesmoke; font-family: 'Courier New', Courier, monospace;">Créditos: <a style="color: rgb(131, 89, 89); text-shadow: 2px 2px 5px rgb(255, 0, 0);" href="http://scp-pt-br.wikidot.com/">scp-pt-br.wikidot.com</a></p>
 
                     <section id="classificação">
                         <h1 style="color: white; font-family: 'Courier New', Courier, monospace;">Classes:</h1>
                         <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/383d17ef-1857-4c17-930a-811758394a0c/d4v0w1t-c4f67776-7ddf-4dd4-a6d5-53fd8bb1b73f.png/v1/fill/w_183,h_179/scp_foundation__safe_symbol__warning__by_lycan_therapy_d4v0w1t-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTc5IiwicGF0aCI6IlwvZlwvMzgzZDE3ZWYtMTg1Ny00YzE3LTkzMGEtODExNzU4Mzk0YTBjXC9kNHYwdzF0LWM0ZjY3Nzc2LTdkZGYtNGRkNC1hNmQ1LTUzZmQ4YmIxYjczZi5wbmciLCJ3aWR0aCI6Ijw9MTgzIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.mJzF7Bs6alwJHChGj4Xx-cyISU5Usf4VhEg06ffFb2E" style="width: 100px">
-                        <p style="color: yellowgreen; font-family: 'Courier New', Courier, monospace; text-shadow: 2px 2px 5px yellowgreen;">Seguro</p>
+                        <h1 class="safe" style="font-size: 20px;">Seguro</h1>
+                        <p style="color: yellowgreen; font-family: 'Courier New', Courier, monospace;">SCPs fáceis de conter de forma segura, geralmente porque já foram bem estudados ou exigem um gatilho específico para ativação.</p>
+                        <p style="color: red;">Importante: <a style="color: beige;">"Seguro" não significa inofensivo — apenas que é fácil de manter contido.</a></p>
                         <img src="https://orig05.deviantart.net/204c/f/2012/177/9/9/scp_foundation__euclid_symbol__warning__by_lycan_therapy-d4v0vws.png" style="width: 100px">
-                        <p style="color: orangered; font-family: 'Courier New', Courier, monospace; text-shadow: 2px 2px 5px orangered;">Euclídeo</p>
+                        <h1 class="euclid" style= "font-size: 20px;">Euclídeo</h1>
+                        <p style="color: orangered; font-family: 'Courier New', Courier, monospace;">SCPs difíceis de conter com segurança, muitas vezes por serem imprevisíveis ou mal compreendidos.</p>
                         <img src="https://preview.redd.it/safe-euclid-keter-icons-v0-bk4m6sye843c1.png?width=442&format=png&auto=webp&s=ab5e021aed171d4f2170fff47bac21d191797246" style="width: 100px">
-                        <p style="color: red; font-family: 'Courier New', Courier, monospace; text-shadow: 2px 2px 5px red;">Keter</p>
-                            
+                        <h1 class="keter" style="font-size: 20px;">Keter</h1>
+                        <p style="color: red; font-family: 'Courier New', Courier, monospace;">SCPs extremamente difíceis de conter com segurança, exigindo procedimentos complexos e muitos recursos.</p>
+                        <p>______________</p> 
                     </section>
 
-                    <section id="criaturas">
-                        <h1 style="color: white; font-family: 'Courier New', Courier, monospace;">Criaturas:</h1>
+                    <section id="SCPs">
+                        <h1 style="color: white; font-family: 'Courier New', Courier, monospace;">SCPs:</h1>
+                        <p>______________</p>
 
-                        <h2 style="color: rgb(255, 0, 0); font-family: 'Courier New', Courier, monospace; text-shadow: 2px 2px 5px rgb(148, 26, 26);">SCP-010-PT - Pimentinhas</h2>
-                        <img src="https://live.staticflickr.com/963/28102875078_06cccf8e8b_c.jpg"  alt="">
-                        <p style="color: beige; font-family: 'Courier New', Courier, monospace;">Descrição: </p>
-                        <p style="color: beige; font-family: 'Courier New', Courier, monospace;">O **SCP-010-PT** é uma árvore de aparência semelhante à gameleira (Ficus insipida), mas com características anômalas. Ela possui uma abundância de cipós lenhosos cobrindo seus galhos e troncos e produz frutos, chamados **SCP-010-PT-1**, que geram entidades humanoides denominadas **SCP-010-PT-2**. Essas árvores também servem como portais para uma colmeia interconectada, chamada **SCP-010-PT-3**. 
+                        <h2 class="keter">SCP-010-PT - Pimentinhas</h2>
+                        <img src="https://live.staticflickr.com/963/28102875078_06cccf8e8b_c.jpg" width="422px"  alt="">
+                        <p class="p1">Descrição: </p>
+                        <p class="p1">O **SCP-010-PT** é uma árvore de aparência semelhante à gameleira (Ficus insipida), mas com características anômalas. Ela possui uma abundância de cipós lenhosos cobrindo seus galhos e troncos e produz frutos, chamados **SCP-010-PT-1**, que geram entidades humanoides denominadas **SCP-010-PT-2**. Essas árvores também servem como portais para uma colmeia interconectada, chamada **SCP-010-PT-3**. 
 
                             A árvore não sofre regeneração quando danificada e não é afetada por mudanças climáticas ou temporais. Caso alguma parte seja removida, ela se evapora em uma nuvem de fumaça tóxica, causando amnésia temporária. Tentativas de acessar o interior da árvore, ou sua colmeia, falharam, mostrando apenas um tronco não-anômalo.
                             
@@ -74,16 +99,72 @@
                             As entidades **SCP-010-PT-2** são humanoides sapientes, com pele que lembra casca de árvore queimada e feições humanas, mas com olhos e dentes avermelhados. Elas se movem usando um apêndice de fumaça negra e não carregam objetos ou trajes, exceto o fruto sobre suas cabeças. Além disso, objetos podem ser transportados por elas quando entram na colmeia e recuperados quando saem.
                             
                             A reprodução do SCP-010-PT ocorre aleatoriamente em gameleiras da natureza, mas não em espécimes cultivadas em ambientes fechados.</p>
-                        <h2 style="color: orangered; font-family: 'Courier New', Courier, monospace; text-shadow: 2px 2px 5px orangered;">SCP-096 – "O Cara Tímido"</h2>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOHjrD2Za4zkgmSa36Pj8Bj_qvOeI_UWgR7w&s" style="width: 500px ;" alt="">
-                        <p style="color: beige; font-family: 'Courier New', Courier, monospace;">Descrição:</p>
-                        <p style="color: beige; font-family: 'Courier New', Courier, monospace;">SCP-096 deve ser mantido em uma cela de aço completamente selada, com dimensões de 5 metros por 5 metros. Nenhum tipo de câmera, espelho ou equipamento óptico pode ser usado dentro da cela. Inspeções semanais são feitas para verificar rachaduras ou danos. Os funcionários só podem confirmar sua presença por sensores de pressão e detectores a laser. Qualquer imagem, vídeo ou gravação que mostre o rosto de SCP-096 é estritamente proibida, a menos que haja permissão especial.
+                            <p>______________</p>
+                            <p class="p1">Procedimentos Especiais de Contenção: </p>
+                            <p class="p1">Devido à forma anômala de reprodução do SCP-010-PT, sua contenção completa é impossível. A Força-Tarefa FTA PT9-Ε ("Carochinhas") é responsável por monitorar comunidades rurais próximas a possíveis locais do SCP e rastrear meios de comunicação por palavras-chave específicas. Informações sobre o SCP devem ser difamadas como lendas urbanas, e testemunhas devem receber amnésicos Classe-C ou B, conforme o nível de envolvimento.
 
-                            SCP-096 é uma criatura humanoide muito alta, medindo 2,38 metros, extremamente magra e com aparência desnutrida. Sua pele é completamente pálida, sem pelos, e seus olhos não têm cor. Ele é normalmente calmo, quieto e passa o tempo olhando para a parede. No entanto, se alguém olhar diretamente para seu rosto — mesmo que seja por meio de uma fotografia ou gravação — ele entra em pânico, cobre o rosto, grita e começa a correr em direção à pessoa que o viu, chamada SCP-096-1.
+                                Agentes devem desencorajar a posse de SCP-010-PT-1, e observadores de eventos anômalos (010-PT-2-Alpha) devem receber amnésicos Classe-A, se necessário. Pessoas diretamente envolvidas nos eventos devem ser consideradas desaparecidas.
+                                
+                                SCP-010-PT e suas variantes não representam ameaça atual, e não devem ser neutralizados, pois beneficiam a flora em sua área de influência. Caso SCP-010-PT-2 se torne hostil, o Time de Contenção 010 deve ser avisado imediatamente para criar novos protocolos.</p>
+                            <p>______________</p>
+                        <h2 class="euclid">SCP-096 – "O Cara Tímido"</h2>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOHjrD2Za4zkgmSa36Pj8Bj_qvOeI_UWgR7w&s" style="width: 422px ;" alt="">
+                        <p class="p1">Descrição:</p>
+                        <p class="p1">SCP-096 é uma criatura humanoide, com 2,38 metros de altura, pele sem pigmentação e sem pelos. Tem braços muito longos (cerca de 1,5 metros) e pouca massa muscular, aparentando desnutrição. Sua mandíbula se abre até 4 vezes mais que a de um humano normal. Os olhos são incolores e ainda não se sabe se ele é cego. Não demonstra inteligência superior nem sinais de consciência.
+
+                            Em estado normal, SCP-096 é dócil e costuma ficar imóvel, encarando uma parede. Porém, se alguém vê seu rosto (mesmo por vídeo ou foto), ele entra em sofrimento emocional intenso, cobrindo o rosto, chorando e balbuciando. Em seguida, ele corre em direção à pessoa que o viu (SCP-096-1) com velocidades que podem passar de 35 km/h — e nada consegue impedi-lo.
                             
-                            A criatura corre em linha reta até encontrar essa pessoa, não importa a distância ou os obstáculos, e ninguém consegue detê-la. Quando alcança a vítima, ela é morta de forma violenta e não resta nenhum vestígio. Depois disso, SCP-096 se acalma, senta por alguns minutos e tenta voltar ao seu local de origem. Vale destacar que desenhos ou representações artísticas de seu rosto não causam essa reação.
+                            SCP-096 localiza a vítima com precisão, independente da distância ou obstáculos, e não para até alcançá-la. A reação não acontece com desenhos ou representações artísticas de seu rosto.</p>
                             
-                            Por ser extremamente perigoso e por poder causar grandes perdas e exposição da Fundação, sua contenção é considerada prioridade máxima.</p>
+                            
+                            <p>______________</p>
+                            <p class="p1">Procedimentos Especiais de Contenção: </p>
+                            <p class="p1">SCP-096 deve ser mantido em uma cela cúbica de aço hermeticamente fechada com 5 metros de lado. Verificações semanais são obrigatórias para identificar rachaduras ou buracos na estrutura.
+
+                                É proibido o uso de câmeras, vídeos ou qualquer equipamento óptico dentro da cela. A presença de SCP-096 deve ser monitorada apenas por sensores de pressão e detectores a laser previamente instalados.</p>
+                            <p>______________</p>
+                            <h2 class="safe">SCP-1004 - Porno de fábrica</h2>
+                            <img src="http://fondationscp.wdfiles.com/local--files/scp-1004/Factoryporncd.jpg" width="422px" alt="">
+                            <p class="p1">Descrição: </p>
+                            <p class="p1">SCP-1004 é um programa de computador encontrado em um disquete (SCP-1004-1) ou CD (SCP-1004-2), ambos rotulados à mão como "Pornô de Fábrica". O programa contém um único arquivo chamado Afabrica.exe, com apenas 1KB, e funciona em qualquer sistema operacional.
+
+                                Ao ser executado, o programa exibe o logotipo "A Fábrica" e pergunta "O que você gostaria de ver?". O usuário pode digitar qualquer tipo de conteúdo, e o programa gera dezenas de vídeos pornográficos sobre o tema solicitado, muitos dos quais parecem nunca ter sido produzidos na realidade.
+                                
+                                O uso prolongado do SCP-1004 causa efeitos psicológicos graves. Após cerca de 100 horas assistindo aos vídeos, os usuários desenvolvem desejos sexuais cada vez mais perturbadores, como escatologia, tortura, assassinato, bestialidade e pedofilia. Com o tempo, a gratificação sexual se torna cada vez mais difícil, levando alguns a buscar esses atos na vida real ou a se automutilar.
+                                
+                                Apesar dos efeitos, o programa não é compulsivo — os usuários continuam usando por escolha própria, já que é uma forma fácil de encontrar pornografia específica.
+                                
+                                O SCP também tem propriedades anômalas de propagação: é enviado por e-mails maliciosos prometendo vídeos proibidos de celebridades. Ao inserir o endereço residencial, o usuário recebe uma cópia física do programa em até três dias, por correio, sem remetente.
+                                
+                                Tentativas de gravar os vídeos resultam apenas em imagens estáticas. Alguns pesquisadores relataram ver formas humanoides nessas gravações, mas isso não foi confirmado.
+                                
+                                A Fundação contém atualmente 37 disquetes e 23 CDs com o SCP-1004.</p>
+                                <p>______________</p>
+                                <p class="p1">Procedimentos Especiais de Contenção: </p>
+                                <p class="p1">Todas as cópias de SCP-1004-1 (disquetes) e SCP-1004-2 (CDs) devem ser armazenadas com segurança no Armário de Contenção 17, no Sítio-37. É proibido o uso recreativo do SCP.
+
+                                    Após o Incidente 1004-Dale, pesquisadores estão proibidos de visualizar qualquer conteúdo gerado por SCP-1004, mesmo que filtrado ou de forma indireta. Apenas Funcionários Classe-D têm permissão para isso.
+                                    
+                                    O uso de SCP-1133-7 e instâncias de SCP-894 foi aprovado para ajudar a conter os efeitos mentais do SCP-1004 quando necessário.
+                                    
+                                    A Fundação também atua para impedir a distribuição do SCP por e-mail, já que ele se espalha através de mensagens eletrônicas maliciosas. Foi criado e distribuído um programa especial para provedores de e-mail, com o objetivo de bloquear a propagação do SCP.</p>
+                                <p>______________</p>
+                                <h1 class="keter">SCP-017 - Homem Sombra</h1>
+                                <img src="http://scp-wiki.wdfiles.com/local--files/scp-017/scp017InCaptivity.jpg" width="422" alt="">
+                                <p class="p1">Descrição: </p>
+                                <p class="p1">SCP-017 é uma entidade humanoide com cerca de 80 cm de altura, parecendo uma criança pequena, mas sem traços definidos. Seu corpo é feito de uma espécie de fumaça negra ou sombra.
+
+                                    Quando uma sombra é projetada sobre ele, SCP-017 reage de forma imediata e violenta, saltando sobre a origem da sombra e a envolvendo completamente com seu corpo. Após isso, o objeto desaparece sem deixar vestígios, e SCP-017 retorna ao seu tamanho normal.
+                                    
+                                    Ainda não se sabe o que existe sob sua forma sombria, mas investigações continuam.</p>
+                                    <p>______________</p>
+                                    <p class="p1">Procedimentos Especiais de Contenção: </p>
+                                    <p class="p1">SCP-017 é mantido dentro de uma prisão de vidro acrílico (100x50x50 cm), suspensa no centro de uma cela de concreto (6x6x4 m). A cela é equipada com holofotes de alta intensidade em todas as direções, que mantêm SCP-017 constantemente iluminado para impedir suas ações.
+
+                                        A sala de controle deve monitorar continuamente os holofotes e os geradores de emergência. Qualquer falha, como lâmpada queimada ou problema nos geradores, exige manutenção imediata.
+                                        
+                                        A entrada na cela só é permitida para troca de lâmpadas. Funcionários devem usar trajes refletivos completos e nunca bloquear a luz de nenhum holofote ativo.</p>
+
                     </section>
         </main>
     </div>
